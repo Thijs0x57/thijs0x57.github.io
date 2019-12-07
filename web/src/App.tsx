@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './assets/face.png';
 import './App.css';
 
+
+console.log("test2: ", process.env.PUBLIC_URL);
 const App: React.FC = () => {
   return (
     <div className="App">
