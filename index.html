@@ -8,7 +8,10 @@
     <h1>You're being redirected to the main webproject...</h1>
     <footer>Puremonk.net</footer>
     <script>
-    alert("test alert");
+      window.onload = function() {
+      // redirect to /home
+      window.location.replace("https://puremonk.net/home");
+      }
     </script>
   </body>
 </html>
